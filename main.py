@@ -1,5 +1,5 @@
 #print("hola mundo cruel!!!!")
-
+"""
 # VARIABLES
 nombre = "javier"
 edad = 32
@@ -139,18 +139,28 @@ for i in personas:
     alumnos = [] #lista  vacia
 
     while True:
-        print(opcion1 agregar)
+        print(opcion1)
         print(opcion2)
         print(opcion3)
         print(opcion4)
         print(opcion5)
 
-        opcion = input("ingresa un nombre de alumno :")
+        opcion = input("ingresa la opcion :")
 
-        if opcion == "1":
-            nombre = input("ingresa al alumno")
-            alumnos.append(nombre)
-        elif opcion =="2":   
-             nombre =input
+    if opcion == "1":
+        nombre = input("ingresa el nombre alumno")
+        alumnos.append(nombre)
+        print(alumnos)
+    elif opcion == "2":
+        nombre = input("ingresa el nombre alumno")
+        alumnos.remove(nombre)
+        print(alumnos)
+    else:
+          break """"""
 
 
+alumnos=["karen","javier"]
+
+print(alumnos)
+
+len()
